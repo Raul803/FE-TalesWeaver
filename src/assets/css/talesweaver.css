@@ -1,0 +1,12 @@
+@import "~@angular/cdk/overlay-prebuilt.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+@import "talesweaver/bootstrap/variables.css";
+@import "talesweaver/bootstrap/inputs.scss";
+@import "talesweaver/bootstrap/forms_check.scss";
+@import "talesweaver/bootstrap/tables.scss";
+@import "talesweaver/bootstrap/loader.scss";
+@import "talesweaver/bootstrap/dropdown.scss";
+@import "talesweaver/bootstrap/cards.scss";
+@import "talesweaver/bootstrap/texts.scss";
+@import "talesweaver/bootstrap/bootstrap.scss";

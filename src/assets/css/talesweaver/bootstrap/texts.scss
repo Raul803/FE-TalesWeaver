@@ -1,0 +1,99 @@
+/* Text Colors */
+
+.text-primary {
+  color: var(--blue_primary) !important;
+}
+
+.text-primary-y {
+  color: var(--primary);
+}
+
+.text-info {
+  color: var(--info) !important;
+}
+
+.text-success {
+  color: var(--success) !important;
+}
+
+.text-danger {
+  color: var(--danger) !important;
+}
+
+.text-warning {
+  color: var(--warning) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.text-secondary-second{
+  color: var(--second_secondary);
+}
+
+/* Background Colors */
+
+.bg-primary {
+  background-color: var(--blue_primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--second_secondary) !important;
+}
+
+
+/* Hover Colors */
+.hover-primary:hover{
+  color: var(--blue_primary) !important;
+}
+
+.hover-primary-y:hover{
+  color: var(--primary) !important;
+}
+
+.hover-secondary:hover{
+  color: var(--secondary) !important;
+}
+
+.hover-second-secondary:hover{
+  color: var(--second_secondary) !important;
+}
+
+.hover-danger:hover{
+  color: var(--danger) !important;
+}
+
+.hover-warning:hover{
+  color: var(--warning) !important;
+}
+
+.hover-success:hover{
+  color: var(--success) !important;
+}
+
+
+/* Fonts Sizes */
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-10{
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-8 {
+  font-size: 8px !important;
+}
