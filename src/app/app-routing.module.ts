@@ -3,10 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from "@angular/common";
 import { BrowserModule } from "@angular/platform-browser";
 import {AuthLayoutComponent} from "./views/auth-layout/auth-layout.component";
-import { RegistryComponent } from './pages/registry/registry.component';
+import { RegistryComponent } from './pages/auth/registry/registry.component';
 
 const routes: Routes = [
-    { path: 'registry', component: RegistryComponent },
       // Else
     {
         path: '',
