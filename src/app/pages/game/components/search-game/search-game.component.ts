@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-search-game',
-  templateUrl: './search-game.component.html',
-  styleUrls: ['./search-game.component.scss']
+  templateUrl: './search-game.ruleta.html',
+  styleUrls: ['./search-game.ruleta.scss']
 })
 export class SearchGameComponent {
 
