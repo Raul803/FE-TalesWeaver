@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.login-pf {
+  background: url(/assets/img/login/Fogata.jpg) no-repeat center fixed;
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.login {
+  position: absolute;
+  min-height: 100vh;
+  right: 0;
+  width: 75rem;
+  background: url(/assets/img/login/mapa.png) no-repeat center;
+  .card {
+    background-color: white;
+    position: absolute;
+    right: 10rem;
+    top: 25rem;
+    padding: 4rem 4rem 4rem 4rem;
+    border-radius: 10px;
+  }
+}
+
+.card-header{
+  color: hotpink;
+  margin-bottom: 3rem;
+}
+
+.input {
+  position: relative;
+  display: flex;
+  outline: none;
+}
+.input__label {
+  font-size: 12px;
+  position: absolute;
+  padding: calc(1rem * 0.6) calc(1rem * .5);
+  margin: calc(1rem * 0.065) calc(1rem * .5);
+  white-space: nowrap;
+  transform: translate(0, 0);
+  transform-origin: 0 0;
+  background: white;
+  transition: transform 120ms ease-in;
+  line-height: 1.2;
+}
+
+.input__field {
+  font-size: 12px;
+  display: block;
+  border: 1px solid pink;
+  padding: calc(1rem * 0.5) 1rem;
+  color: pink;
+  background: transparent;
+  width: 22rem;
+  border-radius: 0.25rem;
+}
+.input_field:not(:-ms-input-placeholder) + .input_label {
+  transform: translate(0.25rem, -44%) scale(0.8);
+  color: pink;
+}
+.input_field:focus + .inputlabel, .inputfield:not(:placeholder-shown) + .input_label {
+  transform: translate(0.25rem, -51%) scale(0.8);
+  color: pink;
+}
+
+/*
+.icon-field:hover{
+  color: var(--primary) !important;
+}
+*/
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
+.btn-primary {
+  color: hotpink;
+  background-color: var(--second_secondary);
+  border-color: var(--second_secondary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: hotpink;
+  border-color: hotpink;
+}

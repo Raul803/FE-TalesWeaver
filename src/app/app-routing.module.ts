@@ -4,6 +4,7 @@ import { CommonModule } from "@angular/common";
 import { BrowserModule } from "@angular/platform-browser";
 import {AuthLayoutComponent} from "./views/auth-layout/auth-layout.component";
 import { RegistryComponent } from './pages/auth/registry/registry.component';
+import {AdminLayoutComponent} from "./views/admin-layout/admin-layout.component";
 
 const routes: Routes = [
       // Else
@@ -21,6 +22,17 @@ const routes: Routes = [
                 path: 'auth',
                 loadChildren: () =>
                     import('./pages/auth/auth.module').then((m) => m.AuthModule),
+            },
+        ],
+    },
+    {
+        path: '',
+        component: AdminLayoutComponent,
+        children: [
+            {
+                path: 'game',
+                loadChildren: () =>
+                    import('./pages/game/game.module').then((m) => m.GameModule),
             },
         ],
     },
