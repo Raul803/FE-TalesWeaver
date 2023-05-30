@@ -25,6 +25,17 @@ const routes: Routes = [
         ],
     },
     {
+        path: '',
+        component: AuthLayoutComponent,
+        children: [
+            {
+                path: 'auth',
+                loadChildren: () =>
+                    import('./pages/auth/auth.module').then((m) => m.AuthModule),
+            },
+        ],
+    },
+    {
         path: '**',
         redirectTo: 'auth/login',
     },
